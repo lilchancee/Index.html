@@ -207,3 +207,29 @@
   </script>
 </body>
 </html>
+"nodes": {
+  "spotify": {
+    "state": "active",
+    "engagementRate": 0.42,
+    "behavior": "amplify",
+    "nextAction": "increaseAdSpend"
+  },
+  "tiktok": {
+    "state": "redirect",
+    "engagementRate": 0.21,
+    "behavior": "targetCrossover",
+    "nextAction": "rerouteTraffic"
+  },
+  "youtube": {
+    "state": "feedback",
+    "engagementRate": 0.18,
+    "behavior": "analyzeComments",
+    "nextAction": "launchRemixSnippet"
+  },
+  "soundcloud": {
+    "state": "dormant",
+    "engagementRate": 0.07,
+    "behavior": "monitor",
+    "nextAction": "delayNextPush"
+  }
+}
